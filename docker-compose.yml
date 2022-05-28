@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  tomcat:
+    build: .
+    restart: always
+    environment:
+      MYSQL_HOSTNAME: mysql
+      MYSQL_USER: spring
+      MYSQL_PASSWORD: spring
+      MYSQL_DATABASE: db
+    ports:
+      - "80:8080"
+  mysql:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: spring
+      MYSQL_PASSWORD: spring
+      MYSQL_DATABASE: db
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
