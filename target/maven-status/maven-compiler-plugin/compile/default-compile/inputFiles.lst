@@ -1,0 +1,7 @@
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/dao/WidgetDataAccessServiceMysql.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/JavaexampleApplication.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/model/Widget.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/dao/WidgetDataAccessService.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/service/WidgetService.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/dao/WidgetDao.java
+/home/kali/spring-example/src/main/java/com/jdwhitaker/javaexample/api/WidgetController.java

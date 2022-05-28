@@ -1,3 +1,5 @@
-FROM tomcat:9.0
+FROM openjdk:11
 
-ADD ./target/java-example.war /usr/local/tomcat/webapps/ROOT.war
+COPY ./target/javaexample-0.0.1-SNAPSHOT.war /app.war
+
+ENTRYPOINT ["java", "-jar", "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=0.0.0.0:9898", "/app.war"]

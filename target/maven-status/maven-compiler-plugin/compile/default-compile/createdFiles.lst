@@ -1,0 +1,7 @@
+com/jdwhitaker/javaexample/dao/WidgetDataAccessService.class
+com/jdwhitaker/javaexample/api/WidgetController.class
+com/jdwhitaker/javaexample/model/Widget.class
+com/jdwhitaker/javaexample/dao/WidgetDao.class
+com/jdwhitaker/javaexample/dao/WidgetDataAccessServiceMysql.class
+com/jdwhitaker/javaexample/service/WidgetService.class
+com/jdwhitaker/javaexample/JavaexampleApplication.class

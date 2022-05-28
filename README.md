@@ -1,5 +1,9 @@
 # java-example
 
-`curl http://localhost:8080/api/v1/widget -X GET`
+Build:
 
-`curl http://localhost:8080/api/v1/widget --json '{"name":"James-Widget","value":"1234asdf"}'`
+`./mvnw clean package`
+
+`curl http://localhost/api/v1/widget -X GET`
+
+`curl http://localhost/api/v1/widget --json '{"name":"James-Widget","value":"1234asdf"}'`

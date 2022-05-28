@@ -14,7 +14,7 @@ public class WidgetService {
     private final WidgetDao widgetDao;
 
     @Autowired
-    public WidgetService(@Qualifier("inMemory") WidgetDao widgetDao){
+    public WidgetService(@Qualifier("mysql") WidgetDao widgetDao){
         this.widgetDao = widgetDao;
     }
 
